@@ -1,0 +1,97 @@
+@import "../../../../config/style.config.scss";
+
+.videos{
+    width: 100%;
+    min-height: 100vh;
+    background-color: $netflix-dark;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+.container{
+    width: 30%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.header{
+    font-size: $font-size-large;
+}
+.sub_header{
+    font-size: $font-size-medium;
+}
+
+.select_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 1em;
+}
+
+.select{
+    margin-left: 1em;
+    width: 100px;
+    font-size: $font-size-small;
+    padding: 5px 10px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.url_wrapper{
+    width: 100%;
+    margin: 2em 0;;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+
+.return_btn{
+    font-size: $font-size-small;
+    padding: 0.8em 2em;
+    width: 30%;
+    background-color: $netflix-dark-red;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.return_btn:hover{
+    background-color: $netflix-red;
+}
+
+.netflix{
+    width: 96px;
+    height: 96px;
+    background-image: url("../../../../assets/img/netflix.png");
+    background-size: contain;
+    cursor: pointer;
+    filter: brightness(0.8);
+    transition-duration: 300ms;
+
+    margin-bottom: 2em;
+    border-radius: 15%;
+}
+.netflix:hover{    
+    filter: brightness(1);
+    border-radius: 25%;
+    box-shadow: 0 0 15px 1px white;
+}
+.netflix:active{
+    transform: translate(3px, 2px);
+}
