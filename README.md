@@ -36,6 +36,6 @@ Backend
     2. run `python database/init.py` to initialize SQLite3 database
     3. Create virtual environment `python -m venv venv` in main catalog
     4. Activate the python virtual environment by running OS compatible command. On macOS: `source venv/bin/activate`, on Windows: `venv\Scripts\activate.bat`
-    6. Install requirements `pip install -r requirements.txt`
+    6. Install requirements `pip install -r requirements.txt` in backend catalog
     7. On macOS run `source start-mac.sh` || on Windows `.\start-windows.bat`
 8. Happy hacking.
