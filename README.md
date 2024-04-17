@@ -39,3 +39,8 @@ Backend
     6. Install requirements `pip install -r requirements.txt` in backend catalog
     7. On macOS run `source start-mac.sh` || on Windows `.\start-windows.bat`
 8. Happy hacking.
+
+# Acknowledgments
+
+The software development leading to this repository has received funding from the Norwegian Financial Mechanism 2014-2021 under project 2019/34/H/ST6/00599.
+
