@@ -1,6 +1,6 @@
 # FixYourNetflix-TUFIQoE-2022
 
-Chrome extension and Python/flask REST API for [ecologically valid](https://en.wikipedia.org/wiki/Ecological_validity) QoE experiment using Netflix streaming platform. 
+Chrome extension and Python/flask REST API for QoE experiment with high [mundel realism](https://dictionary.apa.org/mundane-realism) using Netflix streaming platform. 
 
 Similiar to the [YourNetflixOurLab](https://github.com/navuyi/YourNetflixOurLab-TUFIQoE-2022.git). Includes modifications of Netflix's Cadmium Playercore script:
 - changing buffer size
